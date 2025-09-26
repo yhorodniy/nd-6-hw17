@@ -12,7 +12,7 @@ import type {
 } from '../types';
 
 const API_BASE_URL = 'http://localhost:8000/api';
-const USER_SERVICE_URL = 'http://localhost:3011';
+const USER_SERVICE_URL = 'http://localhost:3001';
 
 const api = axios.create({
     baseURL: API_BASE_URL,

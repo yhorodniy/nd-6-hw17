@@ -6,7 +6,7 @@ import { createUser, loginUser, getUserById } from './controllers/userController
 import { redisClient } from './services/redisClient';
 
 const app = express();
-const PORT = process.env.PORT || 3001;
+const PORT = 3001;
 
 // Middleware
 app.use(helmet());

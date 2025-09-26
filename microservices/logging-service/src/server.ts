@@ -7,7 +7,7 @@ import { redisClient } from './services/redisClient';
 import { LoggingService } from './services/LoggingService';
 
 const app = express();
-const PORT = process.env.PORT || 3002;
+const PORT = 3002;
 const loggingService = new LoggingService();
 
 // Middleware
